@@ -37,6 +37,8 @@ public class Assignment1_Checkbox {
 		Assert.assertFalse(checkkbox.isSelected());
 
 		System.out.println(driver.findElements(By.xpath("//input[@type='checkbox']")).size());
+		
+		System.out.println("This is commit ");
 	}
 
 }
